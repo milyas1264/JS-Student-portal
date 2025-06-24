@@ -32,3 +32,9 @@ function addStudent() {
   document.getElementById("roll").value = "";
   document.getElementById("marks").value = "";
 }
+// Delete student
+function deleteStudent() {
+  let studentContainer = document.getElementById("studentContainer");
+  studentContainer.innerHTML = "";
+}
+
