@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Student Portal</title>
   <style>
+    body {
+      background-color: #6d7881;
+    }
     h2 {
+      padding: 10px;
       margin-bottom: 20px;
       background-color: cadetblue;
-      border: 4px solid black;
+      border: 4px ridge gold;
       color: yellow;
     }
+      input {
+        margin: 5px;
+        padding: 10px;
+        border: 2px outset gold;
+        border-radius: 5px;
+      }
+      button{
+         display: inline-block;
+  width: 200px;
+  margin: 10px;
+  margin-left: 0;
+  padding: 10px 15px;
+  background-color: #37eeb1;
+  color: navy;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  border-bottom: #336088 5px solid;
+      }
   </style>
 </head>
 <body style="font-family: sans-serif; text-align: center; margin: 30px;">
@@ -23,7 +49,7 @@
   <button onclick="deleteStudent()">Delete Student</button>
  
 
-  <hr style="margin: 20px 0;">
+  <hr >
 
   <!-- Student Cards Area -->
   <div id="studentContainer" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;"></div>
